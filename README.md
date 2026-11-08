@@ -6,6 +6,6 @@ Site estático (HTML, CSS e JS puro) para fisioterapia domiciliar para idosos em
 - `v1/`: primeira versão, mantida como referência.
 
 ## Antes de divulgar
-- Trocar o número do WhatsApp em `main.js` (`WHATSAPP_NUMBER`).
+- Link do WhatsApp configurado em `main.js` (`WHATSAPP_LINK`) e nos botões do `index.html`.
 - Substituir as fotos provisórias (Unsplash) por fotos reais, principalmente a da Isadora.
 - Preencher os campos entre colchetes (CREFITO, anos de experiência, telefone, Instagram etc.).
