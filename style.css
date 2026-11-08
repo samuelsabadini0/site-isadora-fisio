@@ -555,3 +555,11 @@ h3 { letter-spacing: -0.015em; }
 .about__photo { object-position: 50% 38%; }
 @media (max-width: 800px) { .about__photo { object-position: 50% 38%; } }
 @media (max-width: 800px) { .facts { flex-direction: column; } .facts li { flex: none; border-right: 0; border-bottom: 1px solid var(--line); } .facts li:last-child { border-bottom: 0; } }
+
+/* ---------- Hero mobile: foto vertical própria ---------- */
+@media (max-width: 800px) {
+  .hero { min-height: 100svh; }
+  .hero__img { object-position: 50% 0%; }
+  .hero::before { background: linear-gradient(180deg, rgba(16,28,32,0) 45%, rgba(16,28,32,.35) 70%, rgba(16,28,32,.55) 100%); }
+}
+@media (max-width: 800px) { .hero { min-height: 88svh; } }

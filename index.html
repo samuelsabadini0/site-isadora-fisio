@@ -30,11 +30,12 @@
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preload" as="image" href="img/hero-isadora.jpg?v=3" fetchpriority="high">
+  <link rel="preload" as="image" href="img/hero-isadora.jpg?v=3" media="(min-width: 801px)" fetchpriority="high">
+  <link rel="preload" as="image" href="img/hero-isadora-mobile.jpg" media="(max-width: 800px)" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=52">
+  <link rel="stylesheet" href="style.css?v=54">
 
   <script type="application/ld+json">
   {
@@ -445,7 +446,10 @@
 
 <!-- ============ 1. HERO ============ -->
 <section class="hero">
-  <img class="hero__img" src="img/hero-isadora.jpg?v=3" width="1440" height="728" alt="Isadora Costa, fisioterapeuta domiciliar em Chapecó, de jaleco branco e braços cruzados" fetchpriority="high">
+  <picture>
+    <source media="(max-width: 800px)" srcset="img/hero-isadora-mobile.jpg" width="787" height="1400">
+    <img class="hero__img" src="img/hero-isadora.jpg?v=3" width="1440" height="728" alt="Isadora Costa, fisioterapeuta domiciliar em Chapecó, de jaleco branco e braços cruzados" fetchpriority="high">
+  </picture>
   <div class="hero__text">
     <h1><span class="l">Fisioterapia domiciliar</span> <span class="l"><strong>para idosos</strong></span> <span class="l">em Chapecó</span></h1>
     <p>Avaliação completa, plano individual e orientação para toda a família.</p>
