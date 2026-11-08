@@ -2,7 +2,7 @@
 
 Site de Isadora Costa (CREFITO-10/418597-F), fisioterapia domiciliar para idosos em Chapecó (SC).
 
-No ar: https://samuelsabadini0.github.io/site-isadora-fisio/
+No ar: https://fisioisadoracosta.com.br/
 
 ## Estrutura
 - `index.html`: página única, com SEO local e dados estruturados (schema.org).
@@ -12,4 +12,4 @@ No ar: https://samuelsabadini0.github.io/site-isadora-fisio/
 - `robots.txt`, `sitemap.xml`, `llms.txt`, `favicon.svg`: SEO e GEO.
 
 ## Publicação
-GitHub Pages, a partir da raiz da branch `main`. Cada push atualiza o site em 1 a 2 minutos.
+Netlify (projeto `fisioisadoracosta`), ligado à branch `main`. Cada push atualiza o site em 1 a 2 minutos. Domínio registrado no Registro.br.

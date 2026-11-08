@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://samuelsabadini0.github.io/site-isadora-fisio/sitemap.xml
+Sitemap: https://fisioisadoracosta.com.br/sitemap.xml
