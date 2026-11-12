@@ -16,3 +16,17 @@ const header = document.querySelector('.header');
 const onHeaderScroll = () => header.classList.toggle('is-solid', window.scrollY > 40);
 onHeaderScroll();
 window.addEventListener('scroll', onHeaderScroll, { passive: true });
+
+// ---------------------------------------------------------
+// Balão do WhatsApp: botão "x" fecha e não reaparece na sessão
+// ---------------------------------------------------------
+const balloon = document.querySelector('.wa-balloon');
+if (balloon) {
+  try { if (sessionStorage.getItem('wa-balloon-closed')) balloon.hidden = true; } catch (e) {}
+  balloon.querySelector('.wa-balloon__close').addEventListener('click', (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    balloon.hidden = true;
+    try { sessionStorage.setItem('wa-balloon-closed', '1'); } catch (err) {}
+  });
+}
