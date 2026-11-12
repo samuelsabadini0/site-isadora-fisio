@@ -544,3 +544,7 @@ h3 { letter-spacing: -0.015em; }
 @media (prefers-reduced-motion: reduce) { .wa-balloon { opacity: 1; transform: none; } }
 .wa-balloon__link { color: inherit; text-decoration: none; }
 .wa-balloon__link:hover { text-decoration: underline; }
+.wa-float { color: #fff; }
+.wa-float svg { width: 30px; height: 30px; fill: #fff; }
+.wa-float svg path { fill: #fff; stroke: none; }
+@media (max-width: 800px) { .wa-float svg { width: 28px; height: 28px; } }
